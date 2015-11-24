@@ -19,7 +19,6 @@
 		5CF7456E1BFB2258009ED77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7456C1BFB2258009ED77A /* Main.storyboard */; };
 		5CF745701BFB2258009ED77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7456F1BFB2258009ED77A /* Assets.xcassets */; };
 		5CF745731BFB2258009ED77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF745711BFB2258009ED77A /* LaunchScreen.storyboard */; };
-		5CF745901BFB22AA009ED77A /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +46,6 @@
 		5CF7456F1BFB2258009ED77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CF745721BFB2258009ED77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CF745741BFB2258009ED77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CF745891BFB22AA009ED77A /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
-		5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,19 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				5C82AA031BFC890E0036A4A1 /* PNChart */,
-				5CF745881BFB22AA009ED77A /* UICountingLabel */,
 			);
 			name = SHChartWithBrokenLine;
 			path = SHChartWithBrokenLineExample/SHChartWithBrokenLine;
-			sourceTree = "<group>";
-		};
-		5CF745881BFB22AA009ED77A /* UICountingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				5CF745891BFB22AA009ED77A /* UICountingLabel.h */,
-				5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */,
-			);
-			path = UICountingLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +204,6 @@
 				5C82AA141BFC890E0036A4A1 /* PNChartLabel.m in Sources */,
 				5C82AA151BFC890E0036A4A1 /* PNColor.m in Sources */,
 				5C82AA121BFC890E0036A4A1 /* PNBar.m in Sources */,
-				5CF745901BFB22AA009ED77A /* UICountingLabel.m in Sources */,
 				5CF7456B1BFB2258009ED77A /* ViewController.m in Sources */,
 				5CF745681BFB2258009ED77A /* AppDelegate.m in Sources */,
 				5C82AA171BFC890E0036A4A1 /* SHBarChartBrokenLine.m in Sources */,
