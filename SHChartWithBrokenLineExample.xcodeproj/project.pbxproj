@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C82AA121BFC890E0036A4A1 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA051BFC890E0036A4A1 /* PNBar.m */; };
+		5C82AA131BFC890E0036A4A1 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA071BFC890E0036A4A1 /* PNBarChart.m */; };
+		5C82AA141BFC890E0036A4A1 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA0B1BFC890E0036A4A1 /* PNChartLabel.m */; };
+		5C82AA151BFC890E0036A4A1 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA0D1BFC890E0036A4A1 /* PNColor.m */; };
+		5C82AA161BFC890E0036A4A1 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA0F1BFC890E0036A4A1 /* PNGenericChart.m */; };
+		5C82AA171BFC890E0036A4A1 /* SHBarChartBrokenLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C82AA111BFC890E0036A4A1 /* SHBarChartBrokenLine.m */; };
 		5CF745651BFB2258009ED77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF745641BFB2258009ED77A /* main.m */; };
 		5CF745681BFB2258009ED77A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF745671BFB2258009ED77A /* AppDelegate.m */; };
 		5CF7456B1BFB2258009ED77A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7456A1BFB2258009ED77A /* ViewController.m */; };
 		5CF7456E1BFB2258009ED77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7456C1BFB2258009ED77A /* Main.storyboard */; };
 		5CF745701BFB2258009ED77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7456F1BFB2258009ED77A /* Assets.xcassets */; };
 		5CF745731BFB2258009ED77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF745711BFB2258009ED77A /* LaunchScreen.storyboard */; };
+		5CF745901BFB22AA009ED77A /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C82AA041BFC890E0036A4A1 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		5C82AA051BFC890E0036A4A1 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		5C82AA061BFC890E0036A4A1 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		5C82AA071BFC890E0036A4A1 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		5C82AA081BFC890E0036A4A1 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		5C82AA091BFC890E0036A4A1 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		5C82AA0A1BFC890E0036A4A1 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		5C82AA0B1BFC890E0036A4A1 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		5C82AA0C1BFC890E0036A4A1 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		5C82AA0D1BFC890E0036A4A1 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		5C82AA0E1BFC890E0036A4A1 /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		5C82AA0F1BFC890E0036A4A1 /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		5C82AA101BFC890E0036A4A1 /* SHBarChartBrokenLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBarChartBrokenLine.h; sourceTree = "<group>"; };
+		5C82AA111BFC890E0036A4A1 /* SHBarChartBrokenLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBarChartBrokenLine.m; sourceTree = "<group>"; };
 		5CF745601BFB2258009ED77A /* SHChartWithBrokenLineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHChartWithBrokenLineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF745641BFB2258009ED77A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CF745661BFB2258009ED77A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +47,8 @@
 		5CF7456F1BFB2258009ED77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CF745721BFB2258009ED77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CF745741BFB2258009ED77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF745891BFB22AA009ED77A /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +62,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C82AA031BFC890E0036A4A1 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				5C82AA041BFC890E0036A4A1 /* PNBar.h */,
+				5C82AA051BFC890E0036A4A1 /* PNBar.m */,
+				5C82AA061BFC890E0036A4A1 /* PNBarChart.h */,
+				5C82AA071BFC890E0036A4A1 /* PNBarChart.m */,
+				5C82AA081BFC890E0036A4A1 /* PNChart.h */,
+				5C82AA091BFC890E0036A4A1 /* PNChartDelegate.h */,
+				5C82AA0A1BFC890E0036A4A1 /* PNChartLabel.h */,
+				5C82AA0B1BFC890E0036A4A1 /* PNChartLabel.m */,
+				5C82AA0C1BFC890E0036A4A1 /* PNColor.h */,
+				5C82AA0D1BFC890E0036A4A1 /* PNColor.m */,
+				5C82AA0E1BFC890E0036A4A1 /* PNGenericChart.h */,
+				5C82AA0F1BFC890E0036A4A1 /* PNGenericChart.m */,
+				5C82AA101BFC890E0036A4A1 /* SHBarChartBrokenLine.h */,
+				5C82AA111BFC890E0036A4A1 /* SHBarChartBrokenLine.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
 		5CF745571BFB2258009ED77A = {
 			isa = PBXGroup;
 			children = (
+				5CF7457A1BFB22AA009ED77A /* SHChartWithBrokenLine */,
 				5CF745621BFB2258009ED77A /* SHChartWithBrokenLineExample */,
 				5CF745611BFB2258009ED77A /* Products */,
 			);
@@ -77,6 +122,25 @@
 				5CF745641BFB2258009ED77A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF7457A1BFB22AA009ED77A /* SHChartWithBrokenLine */ = {
+			isa = PBXGroup;
+			children = (
+				5C82AA031BFC890E0036A4A1 /* PNChart */,
+				5CF745881BFB22AA009ED77A /* UICountingLabel */,
+			);
+			name = SHChartWithBrokenLine;
+			path = SHChartWithBrokenLineExample/SHChartWithBrokenLine;
+			sourceTree = "<group>";
+		};
+		5CF745881BFB22AA009ED77A /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5CF745891BFB22AA009ED77A /* UICountingLabel.h */,
+				5CF7458A1BFB22AA009ED77A /* UICountingLabel.m */,
+			);
+			path = UICountingLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C82AA141BFC890E0036A4A1 /* PNChartLabel.m in Sources */,
+				5C82AA151BFC890E0036A4A1 /* PNColor.m in Sources */,
+				5C82AA121BFC890E0036A4A1 /* PNBar.m in Sources */,
+				5CF745901BFB22AA009ED77A /* UICountingLabel.m in Sources */,
 				5CF7456B1BFB2258009ED77A /* ViewController.m in Sources */,
 				5CF745681BFB2258009ED77A /* AppDelegate.m in Sources */,
+				5C82AA171BFC890E0036A4A1 /* SHBarChartBrokenLine.m in Sources */,
+				5C82AA131BFC890E0036A4A1 /* PNBarChart.m in Sources */,
 				5CF745651BFB2258009ED77A /* main.m in Sources */,
+				5C82AA161BFC890E0036A4A1 /* PNGenericChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +370,7 @@
 				5CF745791BFB2258009ED77A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
